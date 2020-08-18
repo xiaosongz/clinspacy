@@ -29,6 +29,13 @@ You can install the GitHub version of clinspacy with:
 remotes::install_github('ML4LHS/clinspacy', INSTALL_opts = '--no-multiarch')
 ```
 
+Note: Python3 is required, if the Python3 is not the **only** version of Python on your system, you might need to manually set which Python to use:
+
+```r 
+reticulate::use_python(python = "/bin/python3") # example on Mac
+```
+
+
 ## Example
 
 ```{r}
